@@ -1,0 +1,5 @@
+---
+- hosts : anscontrol
+  become : true
+  roles : 
+    - control
